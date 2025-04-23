@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Task5.1C</string>
+    <string name="news_image">News Image</string>
+    <string name="related_news">Related News</string>
+    
+    <!-- Login and Signup -->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="full_name">Full Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_account">CREATE ACCOUNT</string>
+
+    <!-- Navigation -->
+    <string name="nav_news">News</string>
+    <string name="nav_videos">Videos</string>
+    <string name="video_section">Video Section</string>
+
+    <!-- Video Section -->
+    <string name="tab_videos">Videos</string>
+    <string name="tab_playlists">Playlists</string>
+    <string name="add_video">Add Video</string>
+    <string name="add_playlist">Add Playlist</string>
+    <string name="video_url">Video URL</string>
+    <string name="playlist_name">Playlist Name</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Error Messages -->
+    <string name="error_icon">Error Icon</string>
+    <string name="error_loading">Something went wrong.\nPlease try again later.</string>
+</resources>
