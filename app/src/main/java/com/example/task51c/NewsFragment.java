@@ -70,18 +70,18 @@ public class NewsFragment extends Fragment {
     private void loadDummyData() {
         // Load dummy data for testing
         List<News> topStories = new ArrayList<>();
-        topStories.add(new News("Top Story 1", "Description 1", "https://picsum.photos/300/200"));
-        topStories.add(new News("Top Story 2", "Description 2", "https://picsum.photos/300/200"));
-        topStories.add(new News("Top Story 3", "Description 3", "https://picsum.photos/300/200"));
+        topStories.add(new News("Global Tech Summit 2024", "World leaders gather to discuss the future of AI and digital transformation", "https://picsum.photos/300/200?random=1"));
+        topStories.add(new News("Climate Change Breakthrough", "Scientists discover new method to reduce carbon emissions by 50%", "https://picsum.photos/300/200?random=2"));
+        topStories.add(new News("Space Exploration Milestone", "First manned mission to Mars successfully launched", "https://picsum.photos/300/200?random=3"));
         topStoriesAdapter.setNewsList(topStories);
 
         List<News> news = new ArrayList<>();
-        news.add(new News("News 1", "This is a detailed description of News 1", "https://picsum.photos/200/120"));
-        news.add(new News("News 2", "This is a detailed description of News 2", "https://picsum.photos/200/120"));
-        news.add(new News("News 3", "This is a detailed description of News 3", "https://picsum.photos/200/120"));
-        news.add(new News("News 4", "This is a detailed description of News 4", "https://picsum.photos/200/120"));
-        news.add(new News("News 5", "This is a detailed description of News 5", "https://picsum.photos/200/120"));
-        news.add(new News("News 6", "This is a detailed description of News 6", "https://picsum.photos/200/120"));
+        news.add(new News("New Medical Discovery", "Researchers develop revolutionary treatment for rare genetic diseases", "https://picsum.photos/200/120?random=4"));
+        news.add(new News("Economic Growth Report", "Global economy shows signs of recovery with 3.5% growth", "https://picsum.photos/200/120?random=5"));
+        news.add(new News("Sports Championship", "Underdog team wins national championship in dramatic final", "https://picsum.photos/200/120?random=6"));
+        news.add(new News("Cultural Festival", "Annual international arts festival attracts record attendance", "https://picsum.photos/200/120?random=7"));
+        news.add(new News("Education Reform", "New teaching methods show significant improvement in student performance", "https://picsum.photos/200/120?random=8"));
+        news.add(new News("Environmental Protection", "Community initiative successfully restores local wildlife habitat", "https://picsum.photos/200/120?random=9"));
         newsAdapter.setNewsList(news);
     }
 
