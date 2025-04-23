@@ -55,5 +55,5 @@ A simple Android application that combines news browsing and YouTube video playb
 - Material Design Components
 - YouTube Android Player API
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details. 
+## Author
+Shicheng Xiang
